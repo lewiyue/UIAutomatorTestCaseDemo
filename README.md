@@ -25,7 +25,9 @@
 
 ## 测试问题分析：<br>
 1 在手机里面测试testTextEdit的setText方法时，总是会抛出如下异常：<br>
+```
 [exec] java.io.FileNotFoundException: /data/system/theme_config/theme_compatibility.xml: open failed: ENOENT (No such file or directory)
+```
 adb查看了手机文件，确实找不到theme_compatibility.xml。但是通过Emulator可以正常使用。<br>
 猜测是以为手机权限问题，没有root导致。<br>
 2 通过uiautomatorviewer工具查看有些元素的NAF属性是true，我理解成这些元素被定义为无法通过UI Automator识别。<br>
