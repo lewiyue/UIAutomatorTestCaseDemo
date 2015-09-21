@@ -4,12 +4,17 @@
 - com.lewi.demo.testcasedemo.java
 
 主要覆盖的组件，方法和功能：
+
 1 组件：android.widget.ListView，android.widget.EditText
+
 2 方法：UiCollection，UiScrollable
+
 3 功能：解锁屏，NAF, Watcher，截图
 
 设备对象：
+
 1 未root的小米手机
+
 2 GalaxyNexus Emulator 
 
 测试包括的app:
